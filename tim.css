@@ -1,0 +1,20 @@
+body{
+    background-color: deepskyblue;
+    text-align: center;
+    color: red;
+    padding: 27px;
+    margin: 27px;
+    border: thick black solid;
+    font-weight: bold;
+    font-size: 50px;
+}
+button{
+     background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
