@@ -41,8 +41,7 @@ function sta(display) {
     timeleft -= minu * 60000;
     var sec = parseInt(timeleft / 1000);
     if (sec >= 0 && minu >= 0 && hou >= 0 && day >= 0) {
-      display.textContent = day + ":" + hou + ":" + minu + ":" + sec;
-      document.getElementById("ti").innerHTML = "Days : Hours : Minutes : Seconds";
+       display.textContent = "DAYS :" + day + ":" + "HOURS :" + hou + ":" + "MINUTES :" + minu + ":" + "SECONDS :" + sec;
     }
     if (sec == 0 && minu == 0 && hou == 0 && day == 0) {
       alert("LIFT OFF");
