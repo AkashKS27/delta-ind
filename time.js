@@ -4,7 +4,7 @@ var deadline;
 alert("Press Start button to start the Timer");
 
 function start(display) {
-  dead = prompt("Enter Deadline Date", "June 3,2016 00:00:00");
+  dead = prompt("Enter Deadline Date", "June 11,2016 00:00:00");
   deadline = new Date(dead);
 
   function timer() {
